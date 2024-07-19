@@ -18,5 +18,11 @@ A practice-heavy approach to master React by building polished apps, backed up b
    - Description: It's not even a project, just an HTML file with dependencies for React
 
 2. **Project 2: Pizza Menu**
+
    - Description: A simple React application to understand the basics.
    - Topics Covered: Components, State, Props, JSX.
+
+3. **Project 3: Steps Component**
+
+   - Description: Simple Stepper
+   - Topics Covered: State, Events.
