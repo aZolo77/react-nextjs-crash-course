@@ -1,13 +1,13 @@
 # dependencies
-/2-pizza-menu/node_modules
-/2-pizza-menu/.pnp
-/2-pizza-menu.pnp.js
+**/node_modules
+.pnp
+**/menu.pnp.js
 
 # testing
-/2-pizza-menu/coverage
+**/coverage
 
 # production
-/2-pizza-menu/build
+**/build
 
 # misc
 .DS_Store
@@ -16,6 +16,6 @@
 .env.test.local
 .env.production.local
 
-/2-pizza-menu/npm-debug.log*
-/2-pizza-menu/yarn-debug.log*
-/2-pizza-menu/yarn-error.log*
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
