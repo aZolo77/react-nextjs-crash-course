@@ -24,5 +24,10 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
 3. **Project 3: Steps Component**
 
-   - Description: Simple Stepper
+   - Description: Simple Stepper.
    - Topics Covered: State, Events.
+
+4. **Project 4: Travel List**
+
+   - Description: List of things to take on a trip.
+   - Topics Covered: Handling Forms.
