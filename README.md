@@ -31,3 +31,8 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
    - Description: List of things to take on a trip.
    - Topics Covered: Handling Forms, Updating State, Child-to-Parent Communication, Derived State, Moving components into Separate Files.
+
+5. **Project 5: Eat-'N-Split**
+
+   - Description: A simple App for spliting a Bill with your friends.
+   - Topics Covered: Practicing the covered concepts.
