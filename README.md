@@ -36,3 +36,8 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
    - Description: A simple App for spliting a Bill with your friends.
    - Topics Covered: Practicing the covered concepts.
+
+6. **Project 6: usePopcorn**
+
+   - Description: text
+   - Topics Covered: text
