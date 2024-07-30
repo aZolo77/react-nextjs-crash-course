@@ -40,4 +40,4 @@ A practice-heavy approach to master React by building polished apps, backed up b
 6. **Project 6: usePopcorn**
 
    - Description: text
-   - Topics Covered: text
+   - Topics Covered: Prop Drilling, Component Composition
