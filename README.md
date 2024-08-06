@@ -41,3 +41,8 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
    - Description: text
    - Topics Covered: Prop Drilling, Component Composition, Props as an API, PropTypes
+
+7. **Project 7: How React Works**
+
+   - Description: Project was made to understand how React works behind the Scenes
+   - Topics Covered: How rendering Works, Fiber, How Diffing works, Resetting the State with the Key Prop
