@@ -40,7 +40,7 @@ A practice-heavy approach to master React by building polished apps, backed up b
 6. **Project 6: usePopcorn**
 
    - Description: a web App to search for Movies and add them to favourites.
-   - Topics Covered: Prop Drilling, Component Composition, Props as an API, PropTypes, useEffect Hook, async code in useEffect, handling Errors
+   - Topics Covered: Prop Drilling, Component Composition, Props as an API, PropTypes, useEffect Hook, async code in useEffect, handling Errors, Dependency Array
 
 7. **Project 7: How React Works**
 
