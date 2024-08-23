@@ -6,7 +6,7 @@ const average = (arr) => arr.reduce((acc, cur, i, arr) => acc + cur / arr.length
 const KEY = "cd27b91d";
 
 export default function App() {
-  const [query, setQuery] = useState("interstellar");
+  const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]);
   const [watched, setWatched] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -30,13 +30,16 @@ export default function App() {
   }
 
   useEffect(() => {
-    // is executed as the component first mounts
+    const controller = new AbortController();
+
     async function fetchMovies() {
       try {
         setIsLoading(true);
         setError("");
+
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`
+          `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
+          { signal: controller.signal }
         );
 
         // prettier-ignore
@@ -47,10 +50,12 @@ export default function App() {
         if (data.Response === "False") throw new Error(data.Error);
 
         setMovies(data.Search);
-        console.log(data.Search);
+        setError("");
       } catch (error) {
-        console.error(error.message);
-        setError(error.message);
+        if (error.name !== "AbortError") {
+          console.error(error.message);
+          setError(error.message);
+        }
       } finally {
         setIsLoading(false);
       }
@@ -63,6 +68,10 @@ export default function App() {
     }
 
     fetchMovies();
+
+    return function () {
+      controller.abort();
+    };
   }, [query]);
 
   return (
@@ -235,6 +244,16 @@ function MovieDetails({ selectedId, watched, onCloseMovie, onAddWatched }) {
     },
     [selectedId]
   );
+
+  useEffect(() => {
+    if (!title) return;
+
+    document.title = `Movie | ${title}`;
+
+    return () => {
+      document.title = "usePopcorn";
+    };
+  }, [title]);
 
   function handleAdd() {
     const newWatchedMovie = {
