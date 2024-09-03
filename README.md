@@ -52,7 +52,7 @@ A practice-heavy approach to master React by building polished apps, backed up b
    - Description: Project was made to understand how class based Components work: shows weather in user's location for a week
    - Topics Covered: [render method and this.state](./8-classy-weather/src/Counter.js), [this.props and async Functions](./8-classy-weather/src/App.js), Class Fields feature, Child to Parent Communication, Lifecycle Methods
 
-9. **Project 9: [Class Based Components](./9-react-quiz/)**
+9. **Project 9: [Quiz: useReducer](./9-react-quiz/)**
 
    - Description: Quiz
    - Topics Covered: useReducer Hook
