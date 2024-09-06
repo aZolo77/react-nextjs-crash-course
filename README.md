@@ -54,5 +54,5 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
 9. **Project 9: [Quiz: useReducer](./9-react-quiz/)**
 
-   - Description: Quiz
-   - Topics Covered: useReducer Hook
+   - Description: React Quiz
+   - Topics Covered: useReducer Hook, json-server to emulate API call, updating the State in the Reducer Function
