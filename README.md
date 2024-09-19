@@ -56,3 +56,8 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
    - Description: React Quiz
    - Topics Covered: useReducer Hook, json-server to emulate API call, updating the State in the Reducer Function, dispatch function, Timer feature
+
+10. **Project 10: [WorldWise SPA](./10-worldwise/)**
+
+- Description: WorldWise SPA Project
+- Topics Covered: React Router
