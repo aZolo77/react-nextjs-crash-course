@@ -60,4 +60,4 @@ A practice-heavy approach to master React by building polished apps, backed up b
 10. **Project 10: [WorldWise SPA](./10-worldwise/)**
 
 - Description: WorldWise SPA Project
-- Topics Covered: React Router
+- Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route
