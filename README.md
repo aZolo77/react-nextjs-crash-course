@@ -59,5 +59,9 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
 10. **Project 10: [WorldWise SPA](./10-worldwise/)**
 
-- Description: WorldWise SPA Project
-- Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route
+    - Description: WorldWise SPA Project
+    - Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route, [Params String with useParams](./10-worldwise/src/components/City.jsx) | [Query String with useSearchParams](./10-worldwise/src/components/Map.jsx), [programmatic Navigation with useNavigate Hook](./10-worldwise/src/components/Form.jsx), [redirecting with Navigate component](./10-worldwise/src/App.jsx)
+
+11. **Project 11" [Atomic Blog](./11-atomic-blog/)**
+    - Description: Just an App with Posts
+    - Topics Covered: Context API
