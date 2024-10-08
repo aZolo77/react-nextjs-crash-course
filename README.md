@@ -60,8 +60,8 @@ A practice-heavy approach to master React by building polished apps, backed up b
 10. **Project 10: [WorldWise SPA](./10-worldwise/)**
 
     - Description: WorldWise SPA Project
-    - Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route, [Params String with useParams](./10-worldwise/src/components/City.jsx) | [Query String with useSearchParams](./10-worldwise/src/components/Map.jsx), [programmatic Navigation with useNavigate Hook](./10-worldwise/src/components/Form.jsx), [redirecting with Navigate component](./10-worldwise/src/App.jsx)
+    - Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route, [Params String with useParams](./10-worldwise/src/components/City.jsx) | [Query String with useSearchParams](./10-worldwise/src/components/Map.jsx), [programmatic Navigation with useNavigate Hook](./10-worldwise/src/components/Form.jsx), [redirecting with Navigate component](./10-worldwise/src/App.jsx), [useMap && useMapEvents hooks](./10-worldwise/src/components/Map.jsx), [geolocation hook](./10-worldwise//src/hooks/useGeolocation.js), [Date Picker](./10-worldwise/src/components/Form.jsx), createing and deleting an Item with a Server API
 
 11. **Project 11" [Atomic Blog](./11-atomic-blog/)**
     - Description: Just an App with Posts
-    - Topics Covered: Context API
+    - Topics Covered: [Context API](./11-atomic-blog/src/App-v1.js), [Context Provider Component](./11-atomic-blog/src/PostContext.js), [Custom useContext Hook](./11-atomic-blog/src/PostContext.js)
