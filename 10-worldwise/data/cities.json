@@ -25,18 +25,6 @@
       "id": "17806751"
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
       "id": "edd4",
       "cityName": "Valencia",
       "country": "Spain",
@@ -46,6 +34,18 @@
       "position": {
         "lat": "39.46800484919317",
         "lng": "-0.37628173828125006"
+      }
+    },
+    {
+      "id": "7508",
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-10-10T08:45:51.190Z",
+      "notes": "Will be here soon",
+      "position": {
+        "lat": "48.84664340683584",
+        "lng": "2.3565673828125"
       }
     }
   ]
