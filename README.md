@@ -64,4 +64,4 @@ A practice-heavy approach to master React by building polished apps, backed up b
 
 11. **Project 11: [Atomic Blog](./11-atomic-blog/)**
     - Description: Just an App with Posts
-    - Topics Covered: [Context API](./11-atomic-blog/src/App-v1.js), [Context Provider Component](./11-atomic-blog/src/PostContext.js), [Custom useContext Hook](./11-atomic-blog/src/PostContext.js)
+    - Topics Covered: [Context API](./11-atomic-blog/src/App-v1.js), [Context Provider Component](./11-atomic-blog/src/PostContext.js), [Custom useContext Hook](./11-atomic-blog/src/PostContext.js), [optimization Trick with Children](./11-atomic-blog/src/Test.js), [memoization component with memo Function](./11-atomic-blog/src/App-memo.js), [useMemo and useCallback hooks](./11-atomic-blog/src/App-memo.js)
