@@ -63,5 +63,10 @@ A practice-heavy approach to master React by building polished apps, backed up b
     - Topics Covered: React Router, NavLink | Link, css modules, global css function, nested Routes (Outlet component), Index Route, [Params String with useParams](./10-worldwise/src/components/City.jsx) | [Query String with useSearchParams](./10-worldwise/src/components/Map.jsx), [programmatic Navigation with useNavigate Hook](./10-worldwise/src/components/Form.jsx), [redirecting with Navigate component](./10-worldwise/src/App.jsx), [useMap && useMapEvents hooks](./10-worldwise/src/components/Map.jsx), [geolocation hook](./10-worldwise//src/hooks/useGeolocation.js), [Date Picker](./10-worldwise/src/components/Form.jsx), createing and deleting an Item with a Server API, [Context + useReducer](./10-worldwise//src/contexts/CitiesContext.jsx), [login | logout](./10-worldwise/src/contexts/FakeAuthContext.jsx), Fake Authentication, [prevent Infinite Loop with useCallback](./10-worldwise/src/contexts/CitiesContext.jsx), [Code splitting with lazy loading and Suspense component](./10-worldwise/src/App.jsx)
 
 11. **Project 11: [Atomic Blog](./11-atomic-blog/)**
+
     - Description: Just an App with Posts
     - Topics Covered: [Context API](./11-atomic-blog/src/App-v1.js), [Context Provider Component](./11-atomic-blog/src/PostContext.js), [Custom useContext Hook](./11-atomic-blog/src/PostContext.js), [optimization Trick with Children](./11-atomic-blog/src/Test.js), [memoization component with memo Function](./11-atomic-blog/src/App-memo.js), [useMemo and useCallback hooks](./11-atomic-blog/src/App-memo.js), [optimizing Context with useMemo hook](./11-atomic-blog/src/PostContext.js)
+
+12. **Project 11: [Workout Timer](./12-workout-timer/)**
+    - Description: A Calculator for your Workouts
+    - Topics Covered: Memoization, [State based on Other State updates](./12-workout-timer/src/Calculator.js)
