@@ -67,6 +67,11 @@ A practice-heavy approach to master React by building polished apps, backed up b
     - Description: Just an App with Posts
     - Topics Covered: [Context API](./11-atomic-blog/src/App-v1.js), [Context Provider Component](./11-atomic-blog/src/PostContext.js), [Custom useContext Hook](./11-atomic-blog/src/PostContext.js), [optimization Trick with Children](./11-atomic-blog/src/Test.js), [memoization component with memo Function](./11-atomic-blog/src/App-memo.js), [useMemo and useCallback hooks](./11-atomic-blog/src/App-memo.js), [optimizing Context with useMemo hook](./11-atomic-blog/src/PostContext.js)
 
-12. **Project 11: [Workout Timer](./12-workout-timer/)**
+12. **Project 12: [Workout Timer](./12-workout-timer/)**
+
     - Description: A Calculator for your Workouts
     - Topics Covered: Memoization, [State based on Other State updates](./12-workout-timer/src/Calculator.js)
+
+13. **Project 13: [Redux Introduction](./13-redux-intro/)**
+    - Description: Redux Basics
+    - Topics Covered: [Action Creators | Reducers | Initial State](./13-redux-intro/src/store-v1.js), [Conventional File Structure](./13-redux-intro/src/store.js), [React-Redux Library](./13-redux-intro/src/index.js), [useSelector hook to get data from the Store](./13-redux-intro/src/features/customers/Customer.js), [useDispatch hook to dispatch Actions](./13-redux-intro/src/features/customers/CreateCustomer.js)
