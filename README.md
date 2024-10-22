@@ -73,5 +73,10 @@ A practice-heavy approach to master React by building polished apps, backed up b
     - Topics Covered: Memoization, [State based on Other State updates](./12-workout-timer/src/Calculator.js)
 
 13. **Project 13: [Redux Introduction](./13-redux-intro/)**
+
     - Description: Redux Basics
     - Topics Covered: [Action Creators | Reducers | Initial State](./13-redux-intro/src/store-v1.js), [Conventional File Structure](./13-redux-intro/src/store-v1.js), [React-Redux Library](./13-redux-intro/src/index.js), [useSelector hook to get data from the Store](./13-redux-intro/src/features/customers/Customer.js), [useDispatch hook to dispatch Actions](./13-redux-intro/src/features/customers/CreateCustomer.js), [Legacy way of connecting components with Redux](./13-redux-intro/src/features/accounts/BalanceDisplay.js), [thunk middleware](./13-redux-intro/src/store-v2.js), [async code for thunk](./13-redux-intro/src/features/accounts/accountSlice.js), [redux toolkit configureStore method](./13-redux-intro/src/store.js), [createSlice | prepare method](./13-redux-intro/src/features/accounts/accountSlice.js)
+
+14. **Project 14: [Fast Pizza Advanced App](./14-fast-react-pizza/)**
+    - Description: Advanced version of React Pizza using React Router with Data Loading
+    - Topics Covered: setting up a professional File Structure
