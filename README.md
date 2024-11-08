@@ -85,4 +85,4 @@ A practice-heavy approach to master React by building polished apps, backed up b
 15. **Project 15: [The Wild Oasis](./15-the-wild-oasis/)**
 
     - Description: An internal App for the Hotel employees
-    - Topics Covered: styled Components, [createGlobalStyle function](./15-the-wild-oasis/src/styles/GlobalStyles.js), [props and `css` function](./15-the-wild-oasis/src/ui/Heading.jsx), [default props](./15-the-wild-oasis/src/ui/Row.jsx), [setting up Routes](./15-the-wild-oasis/src/App.jsx)
+    - Topics Covered: styled Components, [createGlobalStyle function](./15-the-wild-oasis/src/styles/GlobalStyles.js), [props and `css` function](./15-the-wild-oasis/src/ui/Heading.jsx), [default props](./15-the-wild-oasis/src/ui/Row.jsx), [setting up Routes](./15-the-wild-oasis/src/App.jsx), [styling third-party components with styled(component) function](./15-the-wild-oasis/src/ui/MainNav.jsx), [Supabase connect](./15-the-wild-oasis/src/services/supabase.js)
