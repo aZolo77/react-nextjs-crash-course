@@ -100,4 +100,5 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [a library for displaying Toasts](./15-the-wild-oasis/src/App.jsx)
       - [`useForm` Hook for managing Forms](./15-the-wild-oasis/src/features/cabins/CreateCabinForm.jsx)
       - [setting the type in styled component](./15-the-wild-oasis/src/ui/FileInput.jsx)
-      - custom hooks for reading / creating / editing / deleting Data
+      - custom hooks for reading / creating / editing / deleting Data in Cabins Table
+      - [setting default input values from the API | updating Settings](./15-the-wild-oasis/src/features/settings/UpdateSettingsForm.jsx)
