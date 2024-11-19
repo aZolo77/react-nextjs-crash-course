@@ -102,3 +102,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [setting the type in styled component](./15-the-wild-oasis/src/ui/FileInput.jsx)
       - custom hooks for reading / creating / editing / deleting Data in Cabins Table
       - [setting default input values from the API | updating Settings](./15-the-wild-oasis/src/features/settings/UpdateSettingsForm.jsx)
+      - [createPortal fn for rendering element anywhere in the DOM (for example, to avoid `overflow:hidden` property issue)](./15-the-wild-oasis/src/ui/Modal-v1.jsx)
+      - [compound Components](./15-the-wild-oasis/src/ui/Modal.jsx)
+      - [cloneElement function set props on its element](./15-the-wild-oasis/src/ui/Modal.jsx): [React Documentation](https://react.dev/reference/react/cloneElement)

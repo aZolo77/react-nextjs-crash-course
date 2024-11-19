@@ -1,4 +1,3 @@
-import { useState, createContext, useContext, cloneElement } from "react";
 import { createPortal } from "react-dom";
 import { HiXMark } from "react-icons/hi2";
 
@@ -53,59 +52,19 @@ const Button = styled.button`
   }
 `;
 
-// #1. create a Context
-const ModalContext = createContext();
-
-// #2. create Parent Component
 // eslint-disable-next-line react/prop-types
-function Modal({ children }) {
-  const [openName, setOpenName] = useState("");
-
-  const open = setOpenName;
-
-  const close = () => setOpenName("");
-
-  return (
-    <ModalContext.Provider value={{ openName, open, close }}>
-      {children}
-    </ModalContext.Provider>
-  );
-}
-
-// #3. create Child Components
-function Open({ children, opens: opensWindowName }) {
-  const { open } = useContext(ModalContext);
-
-  return cloneElement(children, {
-    onClick: () => open(opensWindowName),
-  });
-}
-
-// eslint-disable-next-line react/prop-types
-function Window({ children, name }) {
-  const { openName, close } = useContext(ModalContext);
-
-  if (name !== openName) return null;
-
+function Modal({ children, onClose }) {
   return createPortal(
     <Overlay>
       <StyledModal>
-        <Button onClick={close}>
+        <Button onClick={onClose}>
           <HiXMark />
         </Button>
-        <div>
-          {cloneElement(children, {
-            onCloseModal: close,
-          })}
-        </div>
+        <div>{children}</div>
       </StyledModal>
     </Overlay>,
     document.body
   );
 }
-
-// #4. (optional) add Child Components as Props to Parent Component
-Modal.Open = Open;
-Modal.Window = Window;
 
 export default Modal;
