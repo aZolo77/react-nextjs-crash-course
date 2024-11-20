@@ -105,3 +105,7 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [createPortal fn for rendering element anywhere in the DOM (for example, to avoid `overflow:hidden` property issue)](./15-the-wild-oasis/src/ui/Modal-v1.jsx)
       - [compound Components](./15-the-wild-oasis/src/ui/Modal.jsx)
       - [cloneElement function set props on its element](./15-the-wild-oasis/src/ui/Modal.jsx): [React Documentation](https://react.dev/reference/react/cloneElement)
+      - [detect a click outside Modal Window with custom Hook](./15-the-wild-oasis/src/hooks/useOutsideClick.js)
+      - [Edit | Delete Cabin in a Modal](./15-the-wild-oasis/src/features/cabins/CabinRow.jsx)
+      - [Compound Table Component](./15-the-wild-oasis/src/ui/Table.jsx)
+      - [Render Props Pattern in Table Body example](./15-the-wild-oasis/src/ui/Table.jsx)
