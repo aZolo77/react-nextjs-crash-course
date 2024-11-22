@@ -110,3 +110,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Compound Table Component](./15-the-wild-oasis/src/ui/Table.jsx)
       - [Render Props Pattern in Table Body example](./15-the-wild-oasis/src/ui/Table.jsx)
       - [Menu Compound Component](./15-the-wild-oasis/src/ui/Menus.jsx)
+      - [searchParams hook use case](./15-the-wild-oasis/src/ui/Filter.jsx)
+      - [reusable Select Component](./15-the-wild-oasis/src/ui/Select.jsx)
+      - [sort functionality](./15-the-wild-oasis/src/ui/SortBy.jsx)
