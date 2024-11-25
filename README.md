@@ -112,4 +112,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Menu Compound Component](./15-the-wild-oasis/src/ui/Menus.jsx)
       - [searchParams hook use case](./15-the-wild-oasis/src/ui/Filter.jsx)
       - [reusable Select Component](./15-the-wild-oasis/src/ui/Select.jsx)
-      - [sort functionality](./15-the-wild-oasis/src/ui/SortBy.jsx)
+      - [Client Side sort functionality](./15-the-wild-oasis/src/ui/SortBy.jsx)
+      - [Bookings Data loading](./15-the-wild-oasis/src/services/apiBookings.js)
+      - [Filter / Sort Bookings operations on API-Side](./15-the-wild-oasis/src/features/bookings/useBookings.js)
