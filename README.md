@@ -115,3 +115,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Client Side sort functionality](./15-the-wild-oasis/src/ui/SortBy.jsx)
       - [Bookings Data loading](./15-the-wild-oasis/src/services/apiBookings.js)
       - [Filter / Sort Bookings operations on API-Side](./15-the-wild-oasis/src/features/bookings/useBookings.js)
+      - [Pagination Component](./15-the-wild-oasis/src/ui/Pagination.jsx)
+      - [Pagination on API-side](./15-the-wild-oasis/src/services/apiBookings.js)
+      - [Prefetching Data with queryClient](./15-the-wild-oasis/src/features/bookings/useBookings.js)
