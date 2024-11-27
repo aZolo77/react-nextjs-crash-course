@@ -121,3 +121,4 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Checkin Functionallity](./15-the-wild-oasis/src/features/check-in-out/useCheckin.js)
       - [Adding Breakfast to total Price on checkin](./15-the-wild-oasis/src/features/check-in-out/CheckinBooking.jsx)
       - [Checkout Functionallity](./15-the-wild-oasis/src/features/check-in-out/useCheckout.js)
+      - [Delete Booking](./15-the-wild-oasis/src/features/bookings/useDeleteBooking.js)
