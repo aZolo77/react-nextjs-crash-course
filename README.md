@@ -118,3 +118,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Pagination Component](./15-the-wild-oasis/src/ui/Pagination.jsx)
       - [Pagination on API-side](./15-the-wild-oasis/src/services/apiBookings.js)
       - [Prefetching Data with queryClient](./15-the-wild-oasis/src/features/bookings/useBookings.js)
+      - [Checkin Functionallity](./15-the-wild-oasis/src/features/check-in-out/useCheckin.js)
+      - [Adding Breakfast to total Price on checkin](./15-the-wild-oasis/src/features/check-in-out/CheckinBooking.jsx)
+      - [Checkout Functionallity](./15-the-wild-oasis/src/features/check-in-out/useCheckout.js)
