@@ -122,3 +122,7 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Adding Breakfast to total Price on checkin](./15-the-wild-oasis/src/features/check-in-out/CheckinBooking.jsx)
       - [Checkout Functionallity](./15-the-wild-oasis/src/features/check-in-out/useCheckout.js)
       - [Delete Booking](./15-the-wild-oasis/src/features/bookings/useDeleteBooking.js)
+      - [Login with Supabase](./15-the-wild-oasis/src/services/apiAuth.js)
+      - [Authentication Function](./15-the-wild-oasis/src/features/authentication/useLogin.js)
+      - [Protected Route](./15-the-wild-oasis/src/ui/ProtectedRoute.jsx)
+      - [Logout](./15-the-wild-oasis/src/features/authentication/useLogout.js)
