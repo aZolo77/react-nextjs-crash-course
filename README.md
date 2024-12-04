@@ -126,3 +126,5 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Authentication Function](./15-the-wild-oasis/src/features/authentication/useLogin.js)
       - [Protected Route](./15-the-wild-oasis/src/ui/ProtectedRoute.jsx)
       - [Logout](./15-the-wild-oasis/src/features/authentication/useLogout.js)
+      - [Signup Form to register new Users with `useForm` Hook](./15-the-wild-oasis/src/features/authentication/SignupForm.jsx)
+      - [Updating User Data `updateCurrentUser`](./15-the-wild-oasis/src/services/apiAuth.js)
