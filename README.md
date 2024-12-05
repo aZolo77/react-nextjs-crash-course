@@ -128,3 +128,6 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Logout](./15-the-wild-oasis/src/features/authentication/useLogout.js)
       - [Signup Form to register new Users with `useForm` Hook](./15-the-wild-oasis/src/features/authentication/SignupForm.jsx)
       - [Updating User Data `updateCurrentUser`](./15-the-wild-oasis/src/services/apiAuth.js)
+      - [Statistics](./15-the-wild-oasis/src/features/dashboard/Stats.jsx)
+      - [Line Chart with `Recharts` library](./15-the-wild-oasis/src/features/dashboard/SalesChart.jsx)
+      - [Pie Chart with `Recharts` library](./15-the-wild-oasis/src/features/dashboard/DurationChart.jsx)
