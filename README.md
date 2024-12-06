@@ -131,3 +131,5 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Statistics](./15-the-wild-oasis/src/features/dashboard/Stats.jsx)
       - [Line Chart with `Recharts` library](./15-the-wild-oasis/src/features/dashboard/SalesChart.jsx)
       - [Pie Chart with `Recharts` library](./15-the-wild-oasis/src/features/dashboard/DurationChart.jsx)
+      - [Check guests in | out](./15-the-wild-oasis/src/features/check-in-out/TodayActivity.jsx)
+      - [Error Boundary library](./15-the-wild-oasis/src/main.jsx)
