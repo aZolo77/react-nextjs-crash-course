@@ -133,3 +133,9 @@ A practice-heavy approach to master React by building polished apps, backed up b
       - [Pie Chart with `Recharts` library](./15-the-wild-oasis/src/features/dashboard/DurationChart.jsx)
       - [Check guests in | out](./15-the-wild-oasis/src/features/check-in-out/TodayActivity.jsx)
       - [Error Boundary library](./15-the-wild-oasis/src/main.jsx)
+
+16. **Project 16: [SSR React Pizza](./16-manual-ssr/)**
+
+    - Description: Server Side Rendered React Pizza with NodeJS
+    - Topics Covered:
+      - [React + NodeJS Project initiation](./16-manual-ssr/server.js)
